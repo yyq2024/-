@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>飞机大战</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="game-container">
+      <canvas id="gameCanvas"></canvas>
+      <div id="startMenu" class="start-menu">
+        <h1>飞机大战</h1>
+        <button id="startButton" class="start-button">开始游戏</button>
+      </div>
+      <div class="game-info">
+        <div class="score">分数: <span id="scoreEl">0</span></div>
+        <div class="controls">
+          <div class="control-title">游戏控制：</div>
+          <div class="control-item">← → 方向键：左右移动</div>
+          <div class="control-item">空格键：发射子弹</div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
